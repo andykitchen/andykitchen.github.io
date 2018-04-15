@@ -9,8 +9,10 @@ title: Papers
 <h3>{{ page.title }}</h3>
 <div class="panel panel-default">
   <div class="panel-body">
+
     <h5>
-      <strong><a href="https://arxiv.org/abs/1804.04539">Generative Visual Rationales</a></strong>
+      <strong><a href="https://arxiv.org/abs/1804.04539">
+      Generative Visual Rationales</a></strong>
     </h5>
     <p>
       Interpretability and small labelled datasets are key issues in the practical application of deep learning, particularly in areas such as medicine. In this paper, we present a semi-supervised technique that addresses both these issues by leveraging large unlabelled datasets to encode and decode images into a dense latent representation. Using chest radiography as an example, we apply this encoder to other labelled datasets and apply simple models to the latent vectors to learn algorithms to identify heart failure.
@@ -21,9 +23,8 @@ title: Papers
     </p>
 
     <h5>
-      <strong><a href="https://arxiv.org/abs/1708.00129
-">Deep Generative Adversarial Neural Networks for Realistic Prostate Lesion MRI Synthesis
-</a></strong>
+      <strong><a href="https://arxiv.org/abs/1708.00129">
+      Deep Generative Adversarial Neural Networks for Realistic Prostate Lesion MRI Synthesis</a></strong>
     </h5>
     <p>
       Generative Adversarial Neural Networks (GANs) are applied to the synthetic generation of prostate lesion MRI images. GANs have been applied to a variety of natural images, is shown show that the same techniques can be used in the medical domain to create realistic looking synthetic lesion images. 16mm x 16mm patches are extracted from 330 MRI scans from the SPIE ProstateX Challenge 2016 and used to train a Deep Convolutional Generative Adversarial Neural Network (DCGAN) utilizing cutting edge techniques. Synthetic outputs are compared to real images and the implicit latent representations induced by the GAN are explored. Training techniques and successful neural network architectures are explained in detail.
@@ -31,6 +32,29 @@ title: Papers
     <p>
       <a href="https://arxiv.org/abs/1708.00129">arXiv</a> |
       <a href="https://arxiv.org/pdf/1708.00129">pdf</a>
+    </p>
+
+    <h5>
+      <strong><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10134/1013427/Support-vector-machines-for-prostate-lesion-classification/10.1117/12.2277120.full">
+      Support vector machines for prostate lesion classification</a></strong>
+    </h5>
+    <p>
+      Support vector machines (SVM) are applied to the problem of prostate lesion classification for the SPIE ProstateX Challenge 2016, achieving a score of 0.82 AUC on held-out test data. Square 5mm transverse image patches are extracted around each lesion center from aligned MRI scans. Three MRI modalities are simultaneously analyzed: T2-weighted, apparent diffusion coefficient (ADC) and volume transfer constant (Ktrans). Extracted patches are used to train a binary classifier to predict clinical significance. The machine learning algorithm is trained on 76 positive cases and 254 negative cases (330 total) from the challenge. The method is conceptually simple, trains in a few seconds and yields competitive results.
+    </p>
+    <p>
+      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10134/1013427/Support-vector-machines-for-prostate-lesion-classification/10.1117/12.2277120.full">SPIE Digital Library</a>
+    </p>
+
+    <h5>
+      <strong><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10134/1013429/Detection-of-prostate-cancer-on-multiparametric-MRI/10.1117/12.2277122.full">
+      Detection of prostate cancer on multiparametric MRI</a></strong>
+    </h5>
+    <p>
+      In this manuscript, we describe our approach and methods to the ProstateX challenge, which achieved an overall AUC of 0.84 and the runner-up position. We train a deep convolutional neural network to classify lesions marked on multiparametric MRI of the prostate as clinically significant or not.
+      We implement a novel addition to the standard convolutional architecture described as auto-windowing which is clinically inspired and designed to overcome some of the difficulties faced in MRI interpretation, where high dynamic ranges and low contrast edges may cause difficulty for traditional convolutional neural networks trained on high contrast natural imagery. We demonstrate that this system can be trained end to end and outperforms a similar architecture without such additions. Although a relatively small training set was provided, we use extensive data augmentation to prevent overfitting and transfer learning to improve convergence speed, showing that deep convolutional neural networks can be feasibly trained on small datasets.
+    </p>
+    <p>
+      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10134/1013429/Detection-of-prostate-cancer-on-multiparametric-MRI/10.1117/12.2277122.full">SPIE Digital Library</a>
     </p>
 
   </div>
