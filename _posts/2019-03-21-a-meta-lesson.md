@@ -76,7 +76,7 @@ compute at them.
 I think both positions are interesting, important and well supported
 by evidence. But if you read both essays, you'll see that these
 positions are also not mutually exclusive, in fact they are synthetic.
-But you need to take you view one level 'up' so to speak. I'll
+But you need to take your view one level 'up' so to speak. I'll
 illustrate this with a quote from Rodney:
 
 
