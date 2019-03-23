@@ -53,23 +53,23 @@ contrarian approach in the title of his book "Fast, Cheap and Out of
 Control".  He created the iRobot company and the Roomba vacuum
 cleaner along these principles --- and it worked.
 
-It is therefore not surprising that Rich and Rodney have butted heads
-on the role of increased computation power for the development of AI.
-Although I was surprised at Rod for his polemic tone and some
-mischaracterisations of Rich's arguments. I think that Rich and Rod
-both take clear positions with strong examples, my main contention
-would be that Rod discounts using learning and search to improve
-learning itself and so misses the deeper implications of Rich's
-position.
+It is therefore not surprising that Sutton and Brooks have butted
+heads on the role of increased computation power for the development
+of AI.  Although I was surprised at Brooks for his polemic tone and
+some mischaracterisations of Sutton's arguments. I think that Sutton
+and Brooks both take clear positions with strong examples, my main
+contention would be that Brooks discounts using learning and search to
+improve learning itself and so misses the deeper implications of
+Sutton's position.
 
 I'm going to try and summarise both their positions in a few
 sentences, but you should definitely read both essays especially
 because they are so short.
 
-Rich (approx.): learning and search always outperform hand-crafted solutions
-given enough compute.
+Rich Sutton (approx.): learning and search always outperform
+hand-crafted solutions given enough compute.
 
-Rodney (approx.): No, human ingenuity is actually responsible for
+Rodney Brooks (approx.): No, human ingenuity is actually responsible for
 progress in AI. We can't just solve problems by throwing more
 compute at them.
 
@@ -77,7 +77,7 @@ I think both positions are interesting, important and well supported
 by evidence. But if you read both essays, you'll see that these
 positions are also not mutually exclusive, in fact they are synthetic.
 But you need to take your view one level 'up' so to speak. I'll
-illustrate this with a quote from Rodney:
+illustrate this with a quote from Rodney Brooks:
 
 
 > One of the most celebrated successes of Deep Learning is image
@@ -99,7 +99,7 @@ critical, moving past simple feature engineering opened up a whole new
 world for computer vision. The choice of convolutions is a
 hand-crafted inductive bias --- a choice that will eventually need to
 yield to learning as well.  But you see what happened, in the past we
-hand-crafted features, now we hand-craft architectures (A point Rob
+hand-crafted features, now we hand-craft architectures (A point Brooks
 himself makes) this is exactly what Rich Sutton is critical of; we
 should be always seeking to do more with learning and search.  Indeed,
 we are using learning and search to improve learning itself,
@@ -109,9 +109,9 @@ unsophisticated at the moment, but it will hopefully give us something
 better than just throwing countless PhD students at the problem (an
 algorithm I call&hellip; graduate descent)
 
-Rob goes on to criticise the need for massive data sets in Deep
+Brooks goes on to criticise the need for massive data sets in Deep
 Learning, this is indeed a fair criticism but totally mischaracterises
-Rich; he doesn't even use the word 'data' once in his essay. A robot
+Sutton; he doesn't even use the word 'data' once in his essay. A robot
 that could learn to recognise objects from interaction with the world
 alone is certainly one of their shared goals. Even then, the best
 one-shot and few-shot learning systems that exist today either make
@@ -119,8 +119,8 @@ use of meta-learning or learned vector representations. Just to
 reiterate, the most sample efficient systems that exist today _are
 learned_.
 
-Rob writes about the need for computational efficiency, he cites the
-brain using only 20W.  This I think is a strange point, accurate LSTM
+Brooks writes about the need for computational efficiency, he cites the
+human brain using only 20W.  This I think is a strange point, accurate LSTM
 speech recognition models use very little compute and can run
 effectively on mobile phones. Training these models may take a very
 large amount of compute, optimising their hyperparameters, even more.
@@ -133,7 +133,7 @@ us to improve it. He _is_ saying we'll never be able to go back to
 hand-written StarCraft bots. Building a StarCraft bot that can rival
 AlphaStar with only a few hours of play would be a huge achievement
 for AI, but that would mean better learning and search, exactly what
-Rich advocates.
+Sutton advocates.
 
 If you train an LSTM with reinforcement learning to solve maze after
 maze it will learn complex navigation behaviour, backtracking to take
@@ -145,7 +145,7 @@ can yield systems that are _more_ efficient than anything we can
 program. Meta-learning synthesises the need for efficient learning and
 moving away from ad-hoc hand-crafting.
 
-Let's elaborate on something from Rich now:
+Let's elaborate on something from Rich Sutton now:
 
 
 > A similar pattern of research progress was seen in computer Go, only
@@ -166,10 +166,10 @@ Let's elaborate on something from Rich now:
   greater success had by embracing search and learning.
 
 
-Rich is referencing the success of AlphaGo and AlphaZero here. I think
+Sutton is referencing the success of AlphaGo and AlphaZero here. I think
 this example is illustrative. AlphaZero has very little Go, Chess or
 Shogi specific built into it, aside from being quite amazing it puts
-some of Rod's criticisms into focus. It is true that AlphaGo uses a
+some of Brooks' criticisms into focus. It is true that AlphaGo uses a
 lot of compute to train, but how many thousands of hours were poured
 into the Stockfish position evaluation function? How many more would
 be needed to beat AZ? Yes, much research went into AlphaGo itself, but
@@ -180,10 +180,10 @@ AlphaZero?  Once trained, AlphaZero's play is _more_ efficient than
 Stockfish _for the same skill level_.
 
 I think that Sutton could have been more clear that he does not think
-more computation is a panacea in-and-of-itself, but Learning and
+more computation is a panacea in-and-of-itself, but learning and
 search are naturally and passively improved by increasing
 computation. He could have emphasised that _improving_ search and
-learning by increasing the efficiency is an important goal too. Rob
+learning by increasing the efficiency is an important goal too. Brooks
 was too quick to attack only the compute related portions of Sutton's
 essay, what he missed was that learning and search will ultimately
 improve computational efficiency.
