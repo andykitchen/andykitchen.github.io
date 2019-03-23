@@ -109,7 +109,7 @@ unsophisticated at the moment, but it will hopefully give us something
 better than just throwing countless PhD students at the problem (an
 algorithm I call&hellip; graduate descent)
 
-Rob goes on to criticise the need for massive data sets in Deep
+Rod goes on to criticise the need for massive data sets in Deep
 Learning, this is indeed a fair criticism but totally mischaracterises
 Rich; he doesn't even use the word 'data' once in his essay. A robot
 that could learn to recognise objects from interaction with the world
@@ -119,16 +119,18 @@ use of meta-learning or learned vector representations. Just to
 reiterate, the most sample efficient systems that exist today _are
 learned_.
 
-Rob writes about the need for computational efficiency, he cites the
-brain using only 20W.  This I think is a strange point, accurate LSTM
+Rod writes about the need for computational efficiency, citing the
+brain using only 20W.  I think this point avoids unpacking
+compute used in training vs deployment. For example, accurate LSTM
 speech recognition models use very little compute and can run
 effectively on mobile phones. Training these models may take a very
-large amount of compute, optimising their hyperparameters, even more.
+large amount of compute, optimising their hyperparameters even more.
 But the deployed model is frugal. Isn't the total cost of this system
 when deployed on millions of phones still very good?  Google's recent
 AlphaStar model runs on a single GPU when it's actually playing. Sure,
-training AlphaStar took a huge amount of power --- improve that! Rich
-Sutton isn't arguing for wasteful learning and search, he's calling on
+training AlphaStar took a huge amount of power --- improve that! 
+
+Rich Sutton isn't arguing for wasteful learning and search, he's calling on
 us to improve it. He _is_ saying we'll never be able to go back to
 hand-written StarCraft bots. Building a StarCraft bot that can rival
 AlphaStar with only a few hours of play would be a huge achievement
@@ -139,7 +141,7 @@ If you train an LSTM with reinforcement learning to solve maze after
 maze it will learn complex navigation behaviour, backtracking to take
 past turns etc. Incredibly, it learns to learn the layout of each
 individual maze problem. Does it do SLAM? Does it 'know' where it is?
-does it use Bayesian inference? It _does_ do whatever it does, with a
+Does it use Bayesian inference? It _does_ do whatever it does, with a
 surprisingly small amount of compute after training. Learning-to-learn
 can yield systems that are _more_ efficient than anything we can
 program. Meta-learning synthesises the need for efficient learning and
@@ -180,10 +182,10 @@ AlphaZero?  Once trained, AlphaZero's play is _more_ efficient than
 Stockfish _for the same skill level_.
 
 I think that Sutton could have been more clear that he does not think
-more computation is a panacea in-and-of-itself, but Learning and
+more computation is a panacea in-and-of-itself, but that learning and
 search are naturally and passively improved by increasing
 computation. He could have emphasised that _improving_ search and
-learning by increasing the efficiency is an important goal too. Rob
+learning by increasing the efficiency is an important goal too. Rod
 was too quick to attack only the compute related portions of Sutton's
 essay, what he missed was that learning and search will ultimately
 improve computational efficiency.
