@@ -63,8 +63,8 @@ learning itself and so misses the deeper implications of Rich's
 position.
 
 I'm going to try and summarise both their positions in a few
-sentences, but you should definitely read both essays especially
-because they are so short.
+sentences, but you should definitely read both essays, especially
+as they are so short.
 
 Rich (approx.): learning and search always outperform hand-crafted solutions
 given enough compute.
@@ -75,8 +75,8 @@ compute at them.
 
 I think both positions are interesting, important and well supported
 by evidence. But if you read both essays, you'll see that these
-positions are also not mutually exclusive, in fact they are synthetic.
-But you need to take your view one level 'up' so to speak. I'll
+positions are also not mutually exclusive, in fact they are sympathetic.
+But to accept this interpretation you need to take your view one level 'up', so to speak. I'll
 illustrate this with a quote from Rodney:
 
 
