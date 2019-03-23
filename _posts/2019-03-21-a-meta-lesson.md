@@ -9,19 +9,19 @@ future of AI research. I highly recommend reading
 [A&nbsp;Bitter&nbsp;Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 and the follow up
 [A&nbsp;Better&nbsp;Lesson](https://rodneybrooks.com/a-better-lesson/). Both
-authors have prided themselves on elegant brevity which is good. But
-both viewpoints are so rich they really need elaboration. So this
+authors pride themselves on elegant brevity, which is admirable. But
+both viewpoints are so rich they really need further elaboration. So this
 attempt at synthesis will be much more verbose but hopefully
-edifying. Rich Sutton the sage has delivered his teaching, it's
-traditional for us junior monks/researchers to provide the
+edifying. Rich Sutton the sage has delivered his edict: it's
+traditional for us junior monks ~~researchers~~ to provide the
 accompanying exposition and analysis.
 
 First a bit of background: Rich Sutton, as far as I can tell from
-studying his work and hearing him speak believes in a kind of
-reward-minimalism. The idea that everything _can and should_ be
+studying his work and hearing him speak, believes in a kind of
+reward-minimalism. This is the idea that everything _can and should_ be
 learned from a reward signal alone. Give me a world, tell me what is
 better and what is worse and I will give you an agent. He seems to
-have a critical view of anything that tries to include any innate
+have a critical view of any system that tries to include any innate
 skill or ability. For example, why build in SLAM (Simultaneous
 Location and Mapping)? If the agent needs to locate itself to get a
 high reward, it will learn to locate. If it's unnecessary --- it
@@ -32,17 +32,17 @@ our agents with our own limited ideas about how to solve a problem?
 Many reward-minimalists believe that some kind of meta-learning will
 take place if a sufficiently intelligent agent interacts with a
 complex environment. I think Rich has a rich and nuanced view on this,
-which I don't comprehend. I tried to ask him and David Silver at a
+which I don't fully comprehend. (Side note: I tried to ask him and David Silver at a
 NeurIPS panel last year and the question came out all garbled because
-I was nervous and jet-lagged. Either way, it's intuitive that an agent
+I was nervous and jet-lagged). Either way, it's intuitive that an agent
 shouldn't just learn how to increase its reward. In a sufficiently
 rich environment it should improve its methods of learning,
 e.g. develop curiosity, reasoning etc. This is also related to
-recusive self-improvement, the idea that an agent could learn to
+recursive self-improvement, the idea that an agent could learn to
 modify itself and that the subsequent better version could do that
 again, improving each time.
 
-Rodney Brookes on the other hand has long had a chip on his shoulder
+Rodney Brookes, on the other hand, has long had a chip on his shoulder
 about the amount of compute needed to do AI. He pioneered building
 robots with ingenious techniques that use many individually simple
 rules that could interact and override each other, called a
