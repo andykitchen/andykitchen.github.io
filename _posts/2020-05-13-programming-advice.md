@@ -332,9 +332,3 @@ nothing about how to navigate a new maze.
 
 I've had months long projects, where if I had know the right answer up
 front, actually writing the code would have taken me an afternoon.
-
-Removed
-=======
-
-"Combinator out" style
-----------------------
