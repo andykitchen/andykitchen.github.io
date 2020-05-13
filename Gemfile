@@ -1,5 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'rdiscount'
-gem 'pygments.rb'
+gem "github-pages", "~> 204", group: :jekyll_plugins
