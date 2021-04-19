@@ -77,7 +77,7 @@ In contrast there is Polya's book "How to Solve it" including a 4-step
 plan and many heuristic tools to solve problems. Read the book, it's a
 gold mine.
 
-Problem solving can be systematised; insight and inspiration is needed
+Problem solving can be systematised; insight and inspiration are needed
 for monumental discoveries but most day-to-day problems can be solved by
 systematic thinking and a good mental tool box.
 
@@ -327,7 +327,7 @@ backtrack, this is normal, don't let it get you down or frustrate you.
 Annoyingly most articles on programming and data science present a
 solution, a path through the maze without much attention to the process
 of navigating the maze the first time. Critically, following a path
-through a maze is easy once you know the way, and tells us almost
+through a maze is easy once you know the way and tells us almost
 nothing about how to navigate a new maze.
 
 I've had months long projects, where if I had know the right answer up
