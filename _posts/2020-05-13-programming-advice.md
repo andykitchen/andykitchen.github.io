@@ -1,4 +1,4 @@
-Notes from a guest lecture at RMIT
+_Notes from a guest lecture at RMIT_
 
 Episteme and Techne
 -------------------
@@ -10,10 +10,10 @@ possible. And runs away to write down the details. When he returns to
 tell his wife about his impossibility proof, she has already got the
 sofa through the door.
 
-The ancient greeks had multiple words for knowledge, importantly:
+The ancient greeks had multiple words for knowledge:
 episteme, translated as theoretical or abstract understanding and
 techne, translated as art or craft. In this story the mathematician had
-great episteme and the wife, excellent techne.
+great episteme and the wife --- excellent techne.
 
 Episteme is important, and you cannot be a great programmer without it,
 but techne is just as important. This talk is about sharing techne by
@@ -81,8 +81,8 @@ Problem solving can be systematised; insight and inspiration is needed
 for monumental discoveries but most day-to-day problems can be solved by
 systematic thinking and a good mental tool box.
 
-Luckily these can be taught, collected and used us by mere mortals. Here
-are some examples form How to Solve it:
+Luckily these can be taught, collected and used by us mere mortals. Here
+are some examples from How to Solve it:
 
 -   Can you find a problem analogous to your problem and solve that?
 -   Can you find a problem related to yours that has already been solved
@@ -95,7 +95,7 @@ What is programming for?
 
 The bare essence is "solving problems using computers", We are not
 producing computer code for its own sake. Generally if you can solve the
-same problem will less code this is good.
+same problem with less code this is good.
 
 Famous quote:
 
@@ -106,8 +106,8 @@ But our previous definition leaves something to be desired, here's
 another try: "Solving a series of related problems using computers with
 a team of people"
 
-Generally you will discover new problems or expand the scope of your
-investigation, so the ability of code to solve one problem becomes
+Generally, you will discover new problems or expand the scope of your
+investigation so the ability of code to solve one problem becomes
 secondary to its ability to grow into different problems and to be
 understood by a team of people.
 
@@ -160,8 +160,8 @@ function relate to the other modules, who calls it? Why? How are the
 answers used? Why is this computed here instead of somewhere else? Keep
 this up, soon you will be able to see whole systems in your minds eye.
 
-The importance of starting simple,
-----------------------------------
+The importance of starting simple
+---------------------------------
 
 Always start with the simplist thing possible, the easiest version of
 your problem, a smaller dataset, less dimensions.
@@ -177,8 +177,8 @@ when simpler solutions have been demonstrated to be inadequate. Never
 dismiss off-hand a simple solution as inadequate --- do not nerd-snipe
 yourself.
 
-Always compare against baseline algorithms,
--------------------------------------------
+Always compare against baseline algorithms
+------------------------------------------
 
 Whenever you are confronted with a problem, build a "baseline" solution.
 This is a brutally simple solution, so simple it's a little bit funny
@@ -270,8 +270,8 @@ When you start programming the majority of bugs you will need to wade
 through a lot of "Whoops" bugs. As you become a better programmer the
 majority of significant bugs will become "Oooooh" bugs.
 
-Seed your damn random number generators,
-----------------------------------------
+Seed your damn random number generators
+---------------------------------------
 
 There is never ever, ever any reason to use an unseeded (pseudo) random
 number generator. You will have bugs, the bugs will appear and disappear
